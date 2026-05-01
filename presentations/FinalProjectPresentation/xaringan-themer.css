@@ -18,49 +18,48 @@
  *  Version: 0.4.4.9000
  *
  * ------------------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Fira+Code&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Stack+Sans+Text&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Stack+Sans+Headline&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Stack+Sans+Text&display=swap);
 
 
 :root {
   /* Fonts */
-  --text-font-family: 'Open Sans';
+  --text-font-family: 'Stack Sans Text';
   --text-font-is-google: 1;
   --text-font-family-fallback: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial;
   --text-font-base: sans-serif;
-  --header-font-family: Montserrat;
+  --header-font-family: 'Stack Sans Headline';
   --header-font-is-google: 1;
   --header-font-family-fallback: Georgia, serif;
-  --code-font-family: 'Fira Code';
+  --code-font-family: 'Stack Sans Text';
   --code-font-is-google: 1;
-  --base-font-size: 20px;
+  --base-font-size: 18px;
   --text-font-size: 1rem;
   --code-font-size: 0.9rem;
   --code-inline-font-size: 1em;
-  --header-h1-font-size: 44px;
-  --header-h2-font-size: 34px;
+  --header-h1-font-size: 2.75rem;
+  --header-h2-font-size: 2.25rem;
   --header-h3-font-size: 1.75rem;
 
   /* Colors */
-  --text-color: #000000;
+  --text-color: #142E60;
   --header-color: #1D428A;
-  --background-color: #FFFFFF;
+  --background-color: #E8ECF3;
   --link-color: #1D428A;
   --text-bold-color: #1D428A;
   --code-highlight-color: rgba(255,255,0,0.5);
-  --inverse-text-color: #FFFFFF;
+  --inverse-text-color: #E8ECF3;
   --inverse-background-color: #1D428A;
-  --inverse-header-color: #FFFFFF;
+  --inverse-header-color: #E8ECF3;
   --inverse-link-color: #1D428A;
   --title-slide-background-color: #1D428A;
-  --title-slide-text-color: #FFFFFF;
+  --title-slide-text-color: #E8ECF3;
   --header-background-color: #1D428A;
-  --header-background-text-color: #FFFFFF;
-  --primary: #1D428A;
-  --secondary: #1D428A;
-  --white: #FFFFFF;
-  --black: #000000;
+  --header-background-text-color: #E8ECF3;
+  --base: #1D428A;
+  --white: #E8ECF3;
+  --black: #142E60;
 }
 
 html {
@@ -274,17 +273,11 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   }
 }
 
-.primary {
-  color: var(--primary);
+.base {
+  color: var(--base);
 }
-.bg-primary {
-  background-color: var(--primary);
-}
-.secondary {
-  color: var(--secondary);
-}
-.bg-secondary {
-  background-color: var(--secondary);
+.bg-base {
+  background-color: var(--base);
 }
 .white {
   color: var(--white);

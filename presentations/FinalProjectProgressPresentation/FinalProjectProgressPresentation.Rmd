@@ -13,11 +13,11 @@ output:
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
-style_mono_accent(
-  base_color = "#000000",
-  header_font_google = google_font("Times New Roman"),
-  text_font_google   = google_font("Times New Roman"),
-  code_font_google   = google_font("Times New Roman")
+style_mono_light(
+  base_color = "#F88158",
+  header_font_google = google_font("Stack Sans Headline"),
+  text_font_google   = google_font("Stack Sans Text"),
+  code_font_google   = google_font("Stack Sans Text")
 )
 ```
 
